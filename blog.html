@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="icon" href="images/forge1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/forge1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -14,11 +16,15 @@
       <h1><a href="index.html"><i>Sufian's <br>Plants Pal</i></a></h1>
     </div>
     <div class="navbar-right">
-        <input placeholder="Search" type="text" class="searchfield" id="searchInput" />
+        <input placeholder="Search" type="text" class="searchfield" id="searchInput" list="input" />
+        <datalist id="input">
+            <option value="cactus blog">cactus blog</option>
+            <option value="pothos blog">pothos blog</option>
+        </datalist>
         <button id="searchButton">Search</button>
         <a href="blog.html">Blogs</a>
         <a href="about.html">About Us</a>
-      <a href="contact.html">Contact</a>
+        <a href="contact.html">Contact</a>
     </div>
   </nav>
     
